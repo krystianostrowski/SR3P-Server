@@ -1,0 +1,70 @@
+{
+  "$schema": "./schema.json",
+  "cities": [
+    {
+      "name": "Słupsk",
+      "streets": [
+        {
+          "name": "Karola Szymanowskiego",
+          "buildings": [
+            {
+              "number": 5,
+              "data": {
+                "age": 120,
+                "rozklad": "-",
+                "basement": "Nie",
+                "heating": "-",
+                "residents": "-",
+                "wjazd": "brama z lewej strony budynku",
+                "material": "konstrukcja drewniana",
+                "mapDir": "1"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reports": [
+    {
+      "id": 0,
+      "num": "46726f6d616765",
+      "dispatcherID": "D-001",
+      "isActive": true,
+      "services": {
+        "ambulance": {
+          "requested": false,
+          "quantity": 0,
+          "ids": []
+        },
+        "police": {
+          "requested": false,
+          "quantity": 0,
+          "ids": []
+        },
+        "fireFighters": {
+          "requested": true,
+          "quantity": 1,
+          "ids": [
+            {
+              "id": "SP-001",
+              "status": "na miejscu"
+            }
+          ]
+        }
+      },
+      "data": {
+        "city": "Słupsk",
+        "street": "Karola Szymanowskiego",
+        "building": 5
+      },
+      "additionalInfo": {
+        "time": "15.03.2020 14:32",
+        "desc": "Lorem ipsum",
+        "victims": 2,
+        "dangers": "Testowe zagrozenia",
+        "info": "Testowe info"
+      }
+    }
+  ]
+}

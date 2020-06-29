@@ -1,0 +1,16 @@
+{
+  "name": "sr3pserver",
+  "version": "0.5.1",
+  "description": "Server for SR3P app",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index"
+  },
+  "author": "Krystian Ostrowski",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "2.3.0"
+  }
+}
